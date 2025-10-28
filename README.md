@@ -1,73 +1,57 @@
-# Welcome to your Lovable project
+# 🌤️ WeatherWiser — A Modern Weather Experience
 
-## Project info
+WeatherWiser is a sleek, modern weather application built using **React + TypeScript** and the **OpenWeather API**.  
+It blends **Apple Weather-inspired minimalism** with **glassmorphism aesthetics**, dynamic gradients, and smooth atmospheric transitions — creating a calm and visually immersive weather experience.
 
-**URL**: https://lovable.dev/projects/dcc2cbeb-b080-48b1-9c46-dd01d66f8a7d
+---
 
-## How can I edit this code?
+## ✨ Features
 
-There are several ways of editing your application.
+### **Core Functionality**
 
-**Use Lovable**
+- **Real-time weather** using device geolocation
+- **City search** with auto-suggestions
+- **Current weather conditions** + detailed stats:
+  - Temperature & Feels Like
+  - Humidity
+  - Wind Speed
+  - Air Pressure
+  - Visibility
+- **Hourly forecast** in a scrollable slider
+- **5-Day forecast** with clean daily cards
+- **Smooth Dark/Light theme toggle**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dcc2cbeb-b080-48b1-9c46-dd01d66f8a7d) and start prompting.
+### **Visual & UX**
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Dynamic backgrounds** reacting to weather & time of day
+- **Glassmorphism UI** (frosted cards, blur, soft shadows)
+- **Animated weather icons** for immersive atmosphere
+- **Gentle transitions & soft micro-animations**
+- **Clean typography with spacious layout**
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🎨 Design System
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Category                    | Style Description                                    |
+| --------------------------- | ---------------------------------------------------- |
+| **Light Mode**              | Soft sky blues with warm sunlight accents            |
+| **Dark Mode**               | Deep navy/indigo with cyan glow & purple gradients   |
+| **Cards**                   | Frosted glass, backdrop blur, soft floating shadows  |
+| **Weather-Based Gradients** | Sunny amber, rainy slate, night purple, etc.         |
+| **Motion**                  | Smooth fades, subtle scales, atmospheric transitions |
+| **Typography**              | Modern, minimal hierarchy with breathing room        |
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 🧱 Tech Stack
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+| Technology                     | Purpose                              |
+| ------------------------------ | ------------------------------------ |
+| **React + TypeScript**         | Core UI and application logic        |
+| **Vite / CRA**                 | Fast development tooling             |
+| **OpenWeather API**            | Weather data provider                |
+| **CSS / Tailwind / SCSS**      | Styling system & animations          |
+| **Context API / LocalStorage** | Theme persistence & state management |
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/dcc2cbeb-b080-48b1-9c46-dd01d66f8a7d) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+---
