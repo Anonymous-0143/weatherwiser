@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { ThemeProvider } from "next-themes";
-import { ThemeToggle } from "@/components/ThemeToggle";
 import { SearchBar } from "@/components/SearchBar";
 import { CurrentWeather } from "@/components/CurrentWeather";
 import { WeatherDetails } from "@/components/WeatherDetails";
@@ -71,8 +70,8 @@ const Index = () => {
           <div className="container mx-auto px-4 py-8 max-w-6xl">
             {/* Header */}
             <header className="flex justify-between items-center mb-8">
-              <h1 className="text-3xl font-bold">Weather</h1>
-              <ThemeToggle />
+              <h1 className="text-3xl font-bold">WeatherWiser</h1>
+         
             </header>
 
             {/* Search Bar */}
